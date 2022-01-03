@@ -1,61 +1,97 @@
-*{
+body {
+    font-family: Arial, Helvetica, sans-serif;;
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #032a42;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background: rgba(0,0,0,0);
+	color: #6e6b8b;
+	box-shadow: inset 0 0 0 3px #6e6b8b;
+}
+#block-foto {
+    float: left;
+    display: block;
+    width: 300px;
+    border: none;
+    margin: 2px;
+}
+.round {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+}
+#block-name {
+    float: left;
+    display: block;
+    width: 300px;
+    border: none;
+    margin: 2px;
+}
+h1 {
+    font-size: 40px;
+    color: #032a42;
+    text-align:center;
+    margin-bottom:10px;
+}
+h2 {
+    color: #3d3972;
+}
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    background-color: #7087b7;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
     font-weight: bold;
 }
-body{
-    text-transform: uppercase;
-    color: #fff;
+dd {
+    margin-left: 17%;
 }
-.header{
-    padding: 30px 50px;
-    background-color: rgb(158, 46, 93);
-    margin-bottom: 10px;
+p {
+    margin-top:0;
+    margin-bottom:7px;
 }
-.menu{
-    padding: 10px 50px;
-    background-color: rgb(107, 6, 48);
-    margin-bottom: 10px;
+blockquote {
+    text-align: center
 }
-.block-left{
-    width: 30%;
-    margin-right: 10px;
-    float: left;
+a {
+    text-decoration: none;
 }
-aside{
-    background-color: rgb(212, 110, 153);
+hr {
+    color: #808fac;
 }
-.wrapper-float{
-    overflow: auto;
-    margin-bottom: 10px;
-}
-.asideOne{
-    padding: 20px 50px;
-    margin-bottom: 10px;
-}
-.asideTwo{
-    padding: 20px 50px 100px;
-}
-.asideThree{
-    width: 10%;
-    padding: 50px;
-    margin-left: 10px;
-    float: right;
-}
-.main{
-    float: left;
-    width: calc((100%-50%)/1.71);
-    padding: 50px;
-    background-color: rgb(212, 110, 153);
-}
-.section{
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: rgb(230, 182, 202);
+table {
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:#6e6b8b;
 }
 .footer{
-    padding: 10px 50px;
-    background-color: rgb(107, 6, 48);
+    
+    text-align: center;
 }
