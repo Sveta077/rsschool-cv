@@ -76,6 +76,28 @@
 <p>- C#</p>
 <p>- ASP</p>
 </dd>
+<dt>Code example</dt>
+<dd>
+<pre>
+<code>
+    function out(result)
+    {
+        if (AC)  document.getElementById('main_value').innerHTML =Math.trunc(result*1000000)/1000000; 
+        else document.getElementById('main_value').innerHTML ='';
+    }
+    function putNum(Num)
+    {   if (curNum<100000000000 & curNum>-100000000000 ) {
+                if (curDec<1) { 
+                    curNum = curNum + Num*curDec;
+                    curDec =  curDec/10;
+                    } else  {
+                        curNum = curNum*10+Num;
+                    }
+                    out(curNum)}
+    }
+</code>
+</pre>
+</dd>
 </dl>
 <h2 id="languages">Languages</h2>
 <p>Belorussian - native</p>
