@@ -8,14 +8,16 @@
 </head>
 <body>
 <header>
+<nav>
     <ul>
-        <li><a class="active">Home</a></li>
+        <li><a class="active">About me</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#technical-experience">Technical Experience</a></li>
         <li><a href="#languages">Languages</a></li>
       </ul>
-      <hr width=100% size="2" color="#6e6b8b">
+</nav>
+      <hr class="line">
 </header>
 <main>
 <div id="block-foto"><img src="Pugach.jpg" alt="my photo" class="round"></div>
@@ -61,7 +63,7 @@
 </dl>
 <h2 id="experience">Experience</h2>
 <p><strong>My Most Recent Work Experience:</strong></p>
-<p>Has been doing manual testing for more than three years.</p>
+<p>Has been doing manual testing for more than three years for a Swiss company.</p>
 <p><strong>Other Job:</strong></p>
 <p>Media content company.</p>
 <h2 id="technical-experience">Technical Experience</h2>
@@ -74,7 +76,6 @@
 <p>- Git/GitHub, JIRA</p>
 <p>- SQL</p>
 <p>- C#</p>
-<p>- ASP</p>
 </dd>
 <dt>Code example</dt>
 <dd>
@@ -86,8 +87,8 @@
         else document.getElementById('main_value').innerHTML ='';
     }
     function putNum(Num)
-    {   if (curNum<100000000000 & curNum>-100000000000 ) {
-                if (curDec<1) { 
+    {   if (curNum&lt;100000000000 & curNum>-100000000000 ) {
+                if (curDec&lt;1) { 
                     curNum = curNum + Num*curDec;
                     curDec =  curDec/10;
                     } else  {
@@ -102,10 +103,10 @@
 <h2 id="languages">Languages</h2>
 <p>Belorussian - native</p>
 <p>Russian - native</p>
-<p>English - A2</p>
+<p>English - B1</p>
 <p>Polish - A1</p>
 <p>Spanish - basic</p>
-<hr width=100% size="2" color="#6e6b8b">
+<hr class="line">
 </main>
 <footer class="footer">Copyright &#169; <a href="https://github.com/Sveta077/rsschool-cv">GitHub</a> 2022 from <a href="https://rs.school/js/">RSSchool</a></footer>
 </body>
